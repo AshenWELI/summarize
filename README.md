@@ -26,7 +26,7 @@ You can install the necessary dependencies using pip:
 2. Place the PDF you want to summarize in the project folder.
 3. Open the script file and change the path of the PDF in the main section to point to your file.
 4. Run the script:
-<code> python summarize_pdf.py </code>
+<code> python summarize_app.ipynb </code>
 
 ## Known Issues
 * Large PDF files: The summarization works by breaking large PDFs into chunks. For extremely large PDFs, the process might take a while.
