@@ -18,7 +18,7 @@ Ensure you have the following libraries installed:
 
 You can install the necessary dependencies using pip:
 
-$$ pip install PyPDF2 transformers torch $$
+<code> pip install PyPDF2 transformers torch </code>
 
 ## Usage
 
@@ -26,7 +26,7 @@ $$ pip install PyPDF2 transformers torch $$
 2. Place the PDF you want to summarize in the project folder.
 3. Open the script file and change the path of the PDF in the main section to point to your file.
 4. Run the script:
-$$ python summarize_pdf.py $$
+<code> python summarize_pdf.py </code>
 
 ## Known Issues
 * Large PDF files: The summarization works by breaking large PDFs into chunks. For extremely large PDFs, the process might take a while.
@@ -40,4 +40,6 @@ This project is licensed under the MIT License. Feel free to use it and modify i
 
 Feel free to open issues or submit pull requests if you would like to contribute to the project!
 
+Thank you,
+Ashen
 
